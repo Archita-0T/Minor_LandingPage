@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700;900&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(114, 88, 101, 0.881);
+    display: flex;
+}
+
+#part1 {
+    height: 100%;
+    width: 26%;
+}
+
+#part2 {
+    height: 100%;
+    width: 67%;
+    background-color: green;
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW9kZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(161, 145, 149, 0.5);
+}
+
+#part3 {
+    height: 100%;
+    width: 7%;
+}
+
+#text-div {
+    position: absolute;
+    width: 400px;
+    left: 7%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#text-div>h1 {
+    font-size: 100px;
+    letter-spacing: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 78px;
+    color: #fff;
+}
+
+#small-img-div {
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+    background-image: url(https://images.unsplash.com/photo-1529680459049-bf0340fa0755?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#vertical-text {
+    position: absolute;
+    right: -40%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+}
+
+#vertical-text h1 {
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px;
+    color: transparent;
+    letter-spacing: 12px;
+}
+
+#nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 375px;
+    left: 7%;
+    top: 5%;
+}
+
+#nav img {
+    height: 60px;
+}
+
+#nav h5 {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+}
